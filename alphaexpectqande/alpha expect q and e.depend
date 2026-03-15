@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1773387863 source:c:\users\brian\desktop\myproject\alpha expect q and e\main.c
+	<stdio.h>
+	<stdlib.h>
+

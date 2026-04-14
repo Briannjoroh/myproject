@@ -1,11 +1,17 @@
-#include <stdio.h>
-#include "library.h"
+#include "main.h"
 
-int main(){
-	printf("%d + %d = %d\n", 6, 5, add(6,5));
+int main()
+{
+	char *arr;
 
-	printf("%d - %d = %d\n", 10, 3, sub(10,3));
-	
+	arr = creat_Array(5, 'B');
+
+	for(int i = 0; i < 5; i++)
+	{
+		printf("%c\n", arr[i]);
+	}
+
 	return 0;
 
-}
+}	
+		
